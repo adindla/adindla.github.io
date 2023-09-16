@@ -1,0 +1,114 @@
+.logo {
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+}
+
+body {
+    background-color: rgb(255, 230, 233);
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+#pin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+#pin-content {
+    flex-basis: calc(60% - 80px);
+    margin-right: 20px;
+}
+
+#pin-name h1 {
+    font-size: 32px;
+}
+
+.tx {
+    background-color: rgb(233, 122, 122);
+    color: #fbfbfb;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.tx:hover {
+    background-color: rgb(255, 75, 75);
+}
+
+#gambar {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+#gambar img {
+    width: auto;
+    height: 320px;
+    display: block;
+}
+#dukungan {
+    text-align: center;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#form-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#form-dukungan {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    width: 100%;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center; 
+}
+
+#submit-form {
+    align-self: flex-end; 
+}
+
+footer {
+    background-color: #f2698b; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks di footer */
+    text-align: center; /* Pusatkan teks secara horizontal */
+    padding: 20px 0; /* Ruang di sekitar teks */
+}
+
+/* Gaya untuk teks h3 di dalam footer */
+footer h4 {
+    font-size: 20px; /* Ukuran font teks */
+    margin: 0; /* Hapus margin bawaan */
+}

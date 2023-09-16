@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Landing Page</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <header id="navigasi">
+            <div>
+                <img src="logoo.png" alt="logo" class="logo">
+            </div>
+
+            <nav>
+                <ul>
+                    <li>Beranda</li>
+                    <li>Tentang</li>
+                    <li>Dukungan</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="pin">
+                <div id="pin-content">
+                    <div id="pin-name">
+                        <h1>Hak Asasi Perempuan</h1>
+                        <p>Mendukung hak asasi perempuan dalam meningkatkan kapabilitas pendidikan dan pemberdayaan perempuan adalah langkah penting dalam memperjuangkan kesetaraan gender.</p>
+                        <button id="lihat" class="tx">Selengkapnya</button>
+                    </div>
+                    <div id="teks" style="display: none;">
+                        <p id="description">Pendidikan adalah kunci utama dalam memberdayakan perempuan untuk mencapai potensi mereka yang penuh, dan hak asasi perempuan adalah fondasi yang harus dijaga dengan tekun. 
+                            Ketika perempuan memiliki akses yang setara terhadap pendidikan berkualitas, mereka memiliki peluang lebih besar untuk berpartisipasi dalam berbagai bidang. </p>
+                        <p>Selain itu, pemberdayaan perempuan bukan hanya tentang memberi mereka keterampilan dan sumber daya, tetapi juga memberikan mereka kepercayaan diri dan suara dalam pengambilan keputusan.</p>
+                        <p>Dalam mendukung hak asasi perempuan, kita tidak hanya memajukan perempuan, tetapi juga mendorong perkembangan yang berkelanjutan dan kesetaraan bagi seluruh masyarakat. Semua orang harus bersatu untuk memastikan bahwa setiap perempuan memiliki kesempatan yang adil dan setara untuk mencapai impian dan tujuan mereka, sehingga kesetaraan gender bisa menjadi kenyataan bagi semua!</p>
+                        <a id="link" href="https://skilvul.com">Skilvul</a>
+                    </div>
+                </div>
+                <div id="gambar">
+                    <center>
+                        <img src="https://media.istockphoto.com/id/1138162798/vector/womens-hands-girl-power-feminism-symbol.jpg?s=612x612&w=0&k=20&c=RgsblT_Hk6JXd_41gfvdXVjDFOMK2Z93wN8aAAAQUlM=" alt="Women rights">
+                        <img src="https://assets.kompasiana.com/items/album/2021/01/04/whatsapp-image-2021-01-04-at-01-18-59-5ff2d9398ede48161273fa62.jpeg" alt="Gender equality" style="display: none;">
+                    </center>
+                </div>
+            </section>            
+
+            <section id="dukungan">
+                <hr>
+                <div id="form-box">
+                    <div class="left">
+                        <h3>Silahkan Isi Form</h3>
+                    </div>
+                    <div class="right">
+                        <form id="form-dukungan">
+                            <input type="text" placeholder="Nama" id="nama">
+                            <input type="text" placeholder="Kota" id="city">
+                            <input type="email" placeholder="Email" id="email">
+                            <input type="number" placeholder="Kode pos" id="zip-code">
+                        <div class="checkbox">
+                            <label for="status" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+                            <input type="checkbox" id="status" name="status">
+                        </div>
+                            <button type="submit" class="tx" id="submit-form">Submit</button>
+                            <div id="warning"></div>
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+    <footer>
+        <h4>Beri Dukunganmu untuk para Perempuan Indonesia!</h4>
+    </footer>
+</html>
